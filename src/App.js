@@ -1,14 +1,21 @@
 import Footer from "./components/footer";
 import Header from "./components/header";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
-    <div className="container mx-auto p-4">
+    <>
       <Header />
-      <p className="text-3xl text-gray-700 font-bold mb-5">Welcome!</p>
-      <p className="text-gray-500 text-lg">React and Tailwind CSS in action</p>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 export default App;

@@ -4,40 +4,15 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "16px",
+      padding: "75px",
     },
     extend: {
-      colors: {
-        primary: "#2563eb",
-        dark: "#0f172a",
-        secondary: "#64748b",
-      },
-      screens: {
-        "2xl": "1320px",
-      },
+      colors: {},
+      screens: { "2xl": "1320px" },
     },
+  },
+  variants: {
+    display: ["group-hover"],
   },
   plugins: [],
 };
-
-// module.exports = {
-//   content: ['index.html'],
-//   darkMode: 'class',
-//   theme: {
-//     container: {
-//       center: true,
-//       padding: '16px',
-//     },
-//     extend: {
-//       colors: {
-//         primary: '#2563eb',
-//         dark: '#0f172a',
-//         secondary: '#64748b',
-//       },
-//       screens: {
-//         '2xl': '1320px',
-//       },
-//     },
-//   },
-//   plugins: [],
-// }
