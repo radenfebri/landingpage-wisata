@@ -34,20 +34,20 @@ export function About() {
               r="138"
               stroke="white"
               strokeOpacity="0.04"
-              stroke-width="50"
+              strokeWidth="50"
             />
             <circle
               cx="446"
               r="39"
               stroke="white"
               strokeOpacity="0.04"
-              stroke-width="20"
+              strokeWidth="20"
             />
             <path
               d="M245.406 137.609L233.985 94.9852L276.609 106.406L245.406 137.609Z"
               stroke="white"
               strokeOpacity="0.08"
-              stroke-width="12"
+              strokeWidth="12"
             />
           </svg>
         </span>
@@ -65,7 +65,7 @@ export function About() {
               r="138"
               stroke="white"
               strokeOpacity="0.04"
-              stroke-width="50"
+              strokeWidth="50"
             />
             <circle
               cx="49"
@@ -73,13 +73,13 @@ export function About() {
               r="39"
               stroke="white"
               strokeOpacity="0.04"
-              stroke-width="20"
+              strokeWidth="20"
             />
             <path
               d="M222.393 226.701L272.808 213.192L259.299 263.607L222.393 226.701Z"
               stroke="white"
               strokeOpacity="0.06"
-              stroke-width="13"
+              strokeWidth="13"
             />
           </svg>
         </span>
